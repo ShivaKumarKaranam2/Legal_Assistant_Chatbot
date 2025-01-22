@@ -10,7 +10,7 @@ class LegalAIAssistant:
         
         :param api_key: Optional Gemini API key, defaults to environment variable
         """
-        api_key = "AIzaSyA3sqphM_aVsndw-IS96B5zcidqnJEBOA8"
+        api_key = "GEMINI_API_KEY"
 
         self.api_key = api_key or os.getenv('GEMINI_API_KEY')
         
