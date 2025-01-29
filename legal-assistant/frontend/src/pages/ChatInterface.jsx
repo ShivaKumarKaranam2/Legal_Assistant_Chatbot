@@ -193,7 +193,11 @@ export default function ChatInterface() {
                     : 'bg-gray-200 dark:bg-gray-700'
                 }`}
               >
-                <p>{message.text}</p>
+                 {message.sender === 'ai' ? (
+                  <ReactMarkdown>{message.text}</ReactMarkdown> // Use react-markdown here
+                ) : (
+                  <p>{message.text}</p>
+                )}
                 <span className="text-xs opacity=75">
                   {message.timestamp.toLocaleTimeString()}
                 </span>
