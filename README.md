@@ -16,7 +16,7 @@ The **AI-Powered Legal Assistant** is a chatbot designed to help users find rele
 - **React** (for UI development)
 - **Tailwind CSS** (for styling)
 
-### Backend:
+### Backend:(legal_assistant)
 - **Django REST Framework (DRF)** (for API development)
 - **PostgreSQL** (Database)
 - **Gemini API (`gemini-pro`)** (for AI-powered legal responses)
@@ -27,7 +27,7 @@ The **AI-Powered Legal Assistant** is a chatbot designed to help users find rele
 ## 📂 Project Structure
 ```plaintext
 AI-Powered-Legal-Assistant/
-│── backend/                # Django REST Framework (Backend)
+│── legal_assistant/                # Django REST Framework (Backend)
 │   ├── api/                # API Endpoints
 │   ├── models.py           # Database Models
 │   ├── views.py            # API Logic
@@ -57,7 +57,7 @@ AI-Powered-Legal-Assistant/
 ```bash
 # Clone the repository
 git clone https://github.com/your-repo/legal-assistant.git
-cd legal-assistant/backend
+cd legal-assistant/legal_assistant
 
 # Create a virtual environment
 python -m venv venv
@@ -93,34 +93,4 @@ The frontend runs at `http://localhost:3000/`, and the backend at `http://localh
 ### 🔹 Legal Queries
 - **`POST /api/legal-query/`** → AI chatbot processes legal questions and returns relevant IPC sections.
 - **`GET /api/ipc-sections/`** → Fetches all IPC sections from the database.
-
-### 🔹 User Profile
-- **`GET /api/user/`** → Retrieves user profile and history.
-- **`PUT /api/user/update/`** → Updates user profile.
-
-## 📜 How to Use
-1. **Register/Login** on the platform.
-2. **Enter a legal query** (e.g., "What is the punishment for theft?").
-3. **AI provides an answer** with relevant **IPC sections**.
-4. **View enrolled legal courses** and learn about different laws.
-
-## 🛡️ Security & Authentication
-- **Bearer Token Authentication** is implemented using Django REST Framework.
-- Users must provide an **Authorization Token** in requests.
-
-## 🎯 Future Enhancements
-- **Multi-language Support** (Hindi, Tamil, etc.).
-- **Voice-based Legal Queries**.
-- **Integration with Government Legal Databases**.
-
-## 📝 Contributors
-- **[Your Name]** – Backend Development (Django, API, Authentication)
-- **[Team Member 2]** – Frontend Development (React, Tailwind CSS)
-- **[Team Member 3]** – Data Science (IPC Dataset, Gemini API Integration)
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-💡 **Need Help?** Contact us at [your-email@example.com] or open an issue on GitHub!
 
