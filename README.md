@@ -48,10 +48,6 @@ AI-Powered-Legal-Assistant/
 ```
 
 ## 🖥️ Installation Guide
-### Prerequisites
-- **Node.js** (for frontend development)
-- **Python 3.8+** (for backend development)
-- **PostgreSQL** (Database)
 
 ### 🔹 Backend Setup (Django)
 ```bash
