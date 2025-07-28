@@ -18,7 +18,6 @@ The **AI-Powered Legal Assistant** is a chatbot designed to help users find rele
 
 ### Backend:(legal_assistant)
 - **Django REST Framework (DRF)** (for API development)
-- **PostgreSQL** (Database)
 - **Gemini API (`gemini-pro`)** (for AI-powered legal responses)
 
 ### Authentication:
